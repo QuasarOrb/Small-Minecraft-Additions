@@ -461,6 +461,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "staffrecipe"
+    },
+    {
+      "name": "Speed",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speed"
+    },
+    {
+      "name": "SpeedPathRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speed_path_recipe"
     }
   ],
   "variable_elements": [],
@@ -479,6 +495,7 @@
       "item.minecraft.lingering_potion.effect.temphearts": "Temphearts",
       "item.minecraft.splash_potion.effect.temphearts": "Temphearts",
       "item.smm.endium_axe": "Endium Axe",
+      "block.smm.speed": "Speed",
       "item.smm.staff": "Staff",
       "block.smm.endwood_pressure_plate": "Endwood Pressure Plate",
       "item.smm.endium_pickaxe": "Endium Pickaxe",
@@ -514,7 +531,7 @@
       "biome.smm.endwood": "Endwood",
       "item.smm.endiumbullet": "Endiumbullet",
       "item.minecraft.potion.effect.temphearts": "Temphearts",
-      "itemGroup.tabsmm": "Smm"
+      "itemGroup.tabsmm": "Small Minecraft Additions"
     }
   },
   "foldersRoot": {

@@ -2,10 +2,10 @@
   "_fv": 28,
   "_type": "tab",
   "definition": {
-    "name": "Smm",
+    "name": "Small Minecraft Additions",
     "icon": {
       "value": "CUSTOM:Endium"
     },
-    "showSearch": false
+    "showSearch": true
   }
 }

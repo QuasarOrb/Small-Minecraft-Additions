@@ -22,8 +22,8 @@ public class SmmModTabs {
 
 			@OnlyIn(Dist.CLIENT)
 			public boolean hasSearchBar() {
-				return false;
+				return true;
 			}
-		};
+		}.setBackgroundSuffix("item_search.png");
 	}
 }

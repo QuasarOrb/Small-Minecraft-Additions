@@ -62,6 +62,7 @@ public class SmmModItems {
 	public static final RegistryObject<Item> WIZARD = REGISTRY.register("wizard_spawn_egg",
 			() -> new ForgeSpawnEggItem(SmmModEntities.WIZARD, -13421569, -3407668, new Item.Properties().tab(SmmModTabs.TAB_SMM)));
 	public static final RegistryObject<Item> ACTIVATED_STAFF = REGISTRY.register("activated_staff", () -> new ActivatedStaffItem());
+	public static final RegistryObject<Item> SPEED = block(SmmModBlocks.SPEED, SmmModTabs.TAB_SMM);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

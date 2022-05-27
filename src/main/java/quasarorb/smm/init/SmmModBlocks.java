@@ -4,6 +4,7 @@
  */
 package quasarorb.smm.init;
 
+import quasarorb.smm.block.SpeedBlock;
 import quasarorb.smm.block.EndwoodWoodBlock;
 import quasarorb.smm.block.EndwoodStairsBlock;
 import quasarorb.smm.block.EndwoodSlabBlock;
@@ -21,6 +22,10 @@ import quasarorb.smm.SmmMod;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
@@ -39,4 +44,13 @@ public class SmmModBlocks {
 	public static final RegistryObject<Block> ENDWOOD_PRESSURE_PLATE = REGISTRY.register("endwood_pressure_plate",
 			() -> new EndwoodPressurePlateBlock());
 	public static final RegistryObject<Block> ENDWOOD_BUTTON = REGISTRY.register("endwood_button", () -> new EndwoodButtonBlock());
+	public static final RegistryObject<Block> SPEED = REGISTRY.register("speed", () -> new SpeedBlock());
+
+	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+	public static class ClientSideHandler {
+		@SubscribeEvent
+		public static void clientSetup(FMLClientSetupEvent event) {
+			SpeedBlock.registerRenderLayer();
+		}
+	}
 }
