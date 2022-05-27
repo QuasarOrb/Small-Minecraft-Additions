@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "smm:blocks/endwood_log_top",
+    "up": "smm:blocks/endwood_log_top",
+    "north": "smm:blocks/endwood_log_side",
+    "east": "smm:blocks/endwood_log_side",
+    "south": "smm:blocks/endwood_log_side",
+    "west": "smm:blocks/endwood_log_side",
+    "particle": "smm:blocks/endwood_log_top"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "smm:endwood_wood",
+    "smm:endwood_log",
+    "smm:endwood_planks"
+  ]
+}

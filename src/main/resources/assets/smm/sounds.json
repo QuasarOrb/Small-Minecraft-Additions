@@ -1,0 +1,12 @@
+{
+  "dreamer": {
+    "category": "record",
+    "subtitle": "subtitles.dreamer",
+    "sounds": [
+      {
+        "name": "smm:i_see_a_dreamer_dream_team_origina__getmp3.pro_",
+        "stream": true
+      }
+    ]
+  }
+}

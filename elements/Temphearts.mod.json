@@ -1,0 +1,21 @@
+{
+  "_fv": 28,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Temphearts",
+    "splashName": "Temphearts",
+    "lingeringName": "Temphearts",
+    "arrowName": "Arrow of Temphearts",
+    "effects": [
+      {
+        "effect": {
+          "value": "HEALTH_BOOST"
+        },
+        "duration": 3623,
+        "amplifier": 5,
+        "ambient": false,
+        "showParticles": false
+      }
+    ]
+  }
+}

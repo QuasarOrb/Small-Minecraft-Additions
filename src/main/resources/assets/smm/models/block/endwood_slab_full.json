@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "smm:blocks/endwood_planks",
+    "top": "smm:blocks/endwood_planks",
+    "side": "smm:blocks/endwood_planks"
+  }
+}

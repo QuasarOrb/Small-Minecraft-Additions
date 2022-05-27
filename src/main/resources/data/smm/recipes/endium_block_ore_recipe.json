@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "smm:endium_block"
+    }
+  ],
+  "result": {
+    "item": "smm:endium",
+    "count": 9
+  }
+}

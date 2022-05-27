@@ -1,0 +1,19 @@
+{
+  "_fv": 28,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "issee",
+    "name": "I See A Dreamer",
+    "description": "credit CG5",
+    "creativeTab": {
+      "value": "CUSTOM:Smm"
+    },
+    "music": {
+      "value": "CUSTOM:dreamer"
+    },
+    "specialInfo": [
+      "made by CG5"
+    ],
+    "hasGlow": false
+  }
+}

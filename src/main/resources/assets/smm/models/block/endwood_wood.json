@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "smm:blocks/endwood_log_side",
+    "particle": "smm:blocks/endwood_log_side"
+  }
+}

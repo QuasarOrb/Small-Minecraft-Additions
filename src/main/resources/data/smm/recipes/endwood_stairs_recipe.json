@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "smm:endwood_planks"
+    },
+    "3": {
+      "item": "smm:endwood_planks"
+    },
+    "4": {
+      "item": "smm:endwood_planks"
+    },
+    "6": {
+      "item": "smm:endwood_planks"
+    },
+    "7": {
+      "item": "smm:endwood_planks"
+    },
+    "8": {
+      "item": "smm:endwood_planks"
+    }
+  },
+  "result": {
+    "item": "smm:endwood_stairs",
+    "count": 4
+  }
+}

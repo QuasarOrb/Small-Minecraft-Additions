@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "smm:endium"
+    },
+    "2": {
+      "item": "smm:endium"
+    },
+    "3": {
+      "item": "smm:endium"
+    },
+    "4": {
+      "item": "smm:endium"
+    },
+    "5": {
+      "item": "smm:endium"
+    },
+    "6": {
+      "item": "smm:endium"
+    },
+    "7": {
+      "item": "smm:endium"
+    },
+    "8": {
+      "item": "smm:endium"
+    }
+  },
+  "result": {
+    "item": "smm:endium_armor_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "smm:block/endwood_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "smm:block/endwood_wood"
+    },
+    "axis=z": {
+      "model": "smm:block/endwood_wood",
+      "x": 90
+    }
+  }
+}

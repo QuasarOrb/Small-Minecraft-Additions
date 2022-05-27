@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "smm:endium"
+    },
+    "1": {
+      "item": "smm:endium"
+    },
+    "2": {
+      "item": "smm:endium"
+    },
+    "3": {
+      "item": "smm:endium"
+    },
+    "5": {
+      "item": "smm:endium"
+    }
+  },
+  "result": {
+    "item": "smm:endium_armor_helmet",
+    "count": 1
+  }
+}

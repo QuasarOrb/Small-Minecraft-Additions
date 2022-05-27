@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "smm:endium"
+    },
+    "2": {
+      "item": "smm:endium"
+    },
+    "3": {
+      "item": "smm:endium"
+    },
+    "5": {
+      "item": "smm:endium"
+    }
+  },
+  "result": {
+    "item": "smm:endium_armor_boots",
+    "count": 1
+  }
+}

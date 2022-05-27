@@ -1,0 +1,31 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "endium_shovel",
+    "customModelName": "Normal",
+    "name": "Endium Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Smm"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 5,
+    "efficiency": 16.0,
+    "attackSpeed": 1.0,
+    "enchantability": 25,
+    "damageVsEntity": 10.0,
+    "usageCount": 9999,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Endium"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

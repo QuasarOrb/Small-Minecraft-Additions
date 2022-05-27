@@ -1,0 +1,542 @@
+{
+  "mod_elements": [
+    {
+      "name": "Endium",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endium"
+    },
+    {
+      "name": "EndiumOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endium_ore"
+    },
+    {
+      "name": "EndiumBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endium_block"
+    },
+    {
+      "name": "EndiumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endium_ore_block_recipe"
+    },
+    {
+      "name": "EndiumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endium_block_ore_recipe"
+    },
+    {
+      "name": "EndiumOreSmelting",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endium_ore_smelting"
+    },
+    {
+      "name": "EndiumPickaxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endium_pickaxe"
+    },
+    {
+      "name": "EndiumAxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endium_axe"
+    },
+    {
+      "name": "EndiumSword",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endium_sword"
+    },
+    {
+      "name": "EndiumShovel",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endium_shovel"
+    },
+    {
+      "name": "EndiumHoe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endium_hoe"
+    },
+    {
+      "name": "EndiumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endium_pickaxe_recipe"
+    },
+    {
+      "name": "EndiumAxeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endium_axe_recipe"
+    },
+    {
+      "name": "EndiumSwordRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endium_sword_recipe"
+    },
+    {
+      "name": "EndiumShovelRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endium_shovel_recipe"
+    },
+    {
+      "name": "EndiumHoeRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endium_hoe_recipe"
+    },
+    {
+      "name": "EndiumArmor",
+      "type": "armor",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "EndiumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endium_armor_helmet_recipe"
+    },
+    {
+      "name": "EndiumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endium_armor_body_recipe"
+    },
+    {
+      "name": "EndiumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endium_armor_leggings_recipe"
+    },
+    {
+      "name": "EndiumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endium_armor_boots_recipe"
+    },
+    {
+      "name": "Endiumbullet",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endiumbullet"
+    },
+    {
+      "name": "Gun",
+      "type": "rangeditem",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gun"
+    },
+    {
+      "name": "Gunrecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gunrecipe"
+    },
+    {
+      "name": "Ammorecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ammorecipe"
+    },
+    {
+      "name": "EndwoodWood",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endwood_wood"
+    },
+    {
+      "name": "EndwoodLog",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endwood_log"
+    },
+    {
+      "name": "EndwoodPlanks",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endwood_planks"
+    },
+    {
+      "name": "EndwoodLeaves",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endwood_leaves"
+    },
+    {
+      "name": "EndwoodStairs",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endwood_stairs"
+    },
+    {
+      "name": "EndwoodSlab",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endwood_slab"
+    },
+    {
+      "name": "EndwoodFence",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endwood_fence"
+    },
+    {
+      "name": "EndwoodFenceGate",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endwood_fence_gate"
+    },
+    {
+      "name": "EndwoodPressurePlate",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endwood_pressure_plate"
+    },
+    {
+      "name": "EndwoodButton",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endwood_button"
+    },
+    {
+      "name": "EndwoodWoodRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endwood_wood_recipe"
+    },
+    {
+      "name": "EndwoodPlanksRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endwood_planks_recipe"
+    },
+    {
+      "name": "EndwoodStairsRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endwood_stairs_recipe"
+    },
+    {
+      "name": "EndwoodSlabRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endwood_slab_recipe"
+    },
+    {
+      "name": "EndwoodFenceRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endwood_fence_recipe"
+    },
+    {
+      "name": "EndwoodFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endwood_fence_gate_recipe"
+    },
+    {
+      "name": "EndwoodPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endwood_pressure_plate_recipe"
+    },
+    {
+      "name": "EndwoodButtonRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endwood_button_recipe"
+    },
+    {
+      "name": "EndwoodStickRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endwood_stick_recipe"
+    },
+    {
+      "name": "Endwood",
+      "type": "biome",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endwood"
+    },
+    {
+      "name": "Endwoodboat",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endwoodboat"
+    },
+    {
+      "name": "Smm",
+      "type": "tab",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smm"
+    },
+    {
+      "name": "Endhut",
+      "type": "structure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endhut"
+    },
+    {
+      "name": "Temphearts",
+      "type": "potion",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "temphearts"
+    },
+    {
+      "name": "Hearts",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hearts"
+    },
+    {
+      "name": "Stickguy",
+      "type": "livingentity",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stickguy"
+    },
+    {
+      "name": "ISeeADreamer",
+      "type": "musicdisc",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_see_a_dreamer"
+    },
+    {
+      "name": "Wizardtreasure",
+      "type": "loottable",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wizardtreasure"
+    },
+    {
+      "name": "Staff",
+      "type": "item",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "staff"
+    },
+    {
+      "name": "Wizard",
+      "type": "livingentity",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wizard"
+    },
+    {
+      "name": "ActivatedStaff",
+      "type": "rangeditem",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "activated_staff"
+    },
+    {
+      "name": "Staffrecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "staffrecipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "dreamer",
+      "files": [
+        "i_see_a_dreamer_dream_team_origina__getmp3.pro_"
+      ],
+      "category": "record",
+      "subtitle": "Now playing I see a dreamer by cg5"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.minecraft.lingering_potion.effect.temphearts": "Temphearts",
+      "item.minecraft.splash_potion.effect.temphearts": "Temphearts",
+      "item.smm.endium_axe": "Endium Axe",
+      "item.smm.staff": "Staff",
+      "block.smm.endwood_pressure_plate": "Endwood Pressure Plate",
+      "item.smm.endium_pickaxe": "Endium Pickaxe",
+      "subtitles.dreamer": "Now playing I see a dreamer by cg5",
+      "block.smm.endium_ore": "Endium Ore",
+      "block.smm.endwood_fence_gate": "Endwood Fence Gate",
+      "block.smm.endwood_slab": "Endwood Slab",
+      "item.minecraft.tipped_arrow.effect.temphearts": "Arrow of Temphearts",
+      "block.smm.endwood_stairs": "Endwood Stairs",
+      "block.smm.endwood_planks": "Endwood Planks",
+      "item.smm.endium": "Endium",
+      "block.smm.endwood_wood": "Endwood Wood",
+      "item.smm.gun": "Gun",
+      "block.smm.endwood_button": "Endwood Button",
+      "item.smm.endium_armor_helmet": "Endium Helmet",
+      "entity.smm.wizard": "Wizard",
+      "block.smm.endium_block": "Block of Endium",
+      "item.smm.wizard_spawn_egg": "Wizard Spawn Egg",
+      "item.smm.endium_sword": "Endium Sword",
+      "block.smm.endwood_fence": "Endwood Fence",
+      "item.smm.i_see_a_dreamer.desc": "credit CG5",
+      "item.smm.activated_staff": "Activated Staff",
+      "entity.smm.stickguy": "Stickguy",
+      "item.smm.i_see_a_dreamer": "I See A Dreamer",
+      "block.smm.endwood_leaves": "Endwood Leaves",
+      "item.smm.stickguy_spawn_egg": "Stickguy Spawn Egg",
+      "item.smm.endium_hoe": "Endium Hoe",
+      "item.smm.endium_armor_chestplate": "Endium Chestplate",
+      "item.smm.endium_armor_leggings": "Endium Leggings",
+      "item.smm.endium_armor_boots": "Endium Boots",
+      "block.smm.endwood_log": "Endwood Log",
+      "item.smm.endium_shovel": "Endium Shovel",
+      "biome.smm.endwood": "Endwood",
+      "item.smm.endiumbullet": "Endiumbullet",
+      "item.minecraft.potion.effect.temphearts": "Temphearts",
+      "itemGroup.tabsmm": "Smm"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "smm",
+    "modName": "smm",
+    "version": "1.0.0",
+    "author": "smootfam, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "quasarorb.smm",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

@@ -1,0 +1,37 @@
+{
+  "_fv": 28,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "gunredrawn",
+    "customModelName": "Normal",
+    "name": "Gun",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Smm"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:Endiumbullet"
+    },
+    "shootConstantly": true,
+    "usageCount": 2000,
+    "actionSound": {
+      "value": "block.azalea.hit"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 1.5,
+    "bulletPower": 7.0,
+    "bulletDamage": 0.2,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Endium"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

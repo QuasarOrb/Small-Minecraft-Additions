@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "smm:endwood_planks"
+    }
+  ],
+  "result": {
+    "item": "smm:endwood_button",
+    "count": 1
+  }
+}

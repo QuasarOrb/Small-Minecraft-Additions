@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "smm:blocks/endwood_planks",
+    "particle": "smm:blocks/endwood_planks"
+  }
+}

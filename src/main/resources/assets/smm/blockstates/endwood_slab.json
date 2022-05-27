@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "smm:block/endwood_slab"
+    },
+    "type=top": {
+      "model": "smm:block/endwood_slab_top"
+    },
+    "type=double": {
+      "model": "smm:block/endwood_slab_full"
+    }
+  }
+}
