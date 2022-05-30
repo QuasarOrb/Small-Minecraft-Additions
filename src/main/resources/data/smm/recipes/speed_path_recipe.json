@@ -1,12 +1,12 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "0  ",
+    " 1 ",
     "345"
   ],
   "key": {
-    "0": {
-      "item": "minecraft:potion"
+    "1": {
+      "item": "minecraft:amethyst_shard"
     },
     "3": {
       "tag": "minecraft:wooden_slabs"
@@ -20,6 +20,6 @@
   },
   "result": {
     "item": "smm:speed",
-    "count": 1
+    "count": 4
   }
 }
