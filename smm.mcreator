@@ -528,8 +528,8 @@
   ],
   "language_map": {
     "en_us": {
-      "item.minecraft.lingering_potion.effect.temphearts": "Temphearts",
       "item.minecraft.splash_potion.effect.temphearts": "Temphearts",
+      "item.minecraft.lingering_potion.effect.temphearts": "Temphearts",
       "item.smm.endium_axe": "Endium Axe",
       "block.smm.speed": "Speed",
       "item.smm.staff": "Staff",
