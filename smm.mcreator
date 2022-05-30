@@ -477,6 +477,42 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "speed_path_recipe"
+    },
+    {
+      "name": "WizardSummonerRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wizard_summoner_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WizardSummoner",
+      "type": "item",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wizard_summoner"
     }
   ],
   "variable_elements": [],
@@ -502,6 +538,7 @@
       "subtitles.dreamer": "Now playing I see a dreamer by cg5",
       "block.smm.endium_ore": "Endium Ore",
       "block.smm.endwood_fence_gate": "Endwood Fence Gate",
+      "item.smm.wizard_summoner": "Wizard Summoner",
       "block.smm.endwood_slab": "Endwood Slab",
       "item.minecraft.tipped_arrow.effect.temphearts": "Arrow of Temphearts",
       "block.smm.endwood_stairs": "Endwood Stairs",
